@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 700px;
+  margin: 150px auto;
+  background-color: hsl(180, 26%, 91%);
+  line-height: 1.4;
+  font-family: karla, "sans sherif";
+}
+
+.spg-header {
+  background-color: #ffffffae;
+  padding: 40px 80px 60px 40px;
+}
+
+.spg-title {
+  color: hsl(179, 62%, 43%);
+  margin-bottom: 5px;
+}
+
+.spg-guarantee {
+  display: block;
+  color: hsl(71, 69%, 40%);
+  margin: 15px 0;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.spg-text {
+  color: hsl(218, 11%, 40%);
+}
+
+.spg-subscription {
+  background-color: hsl(179, 62%, 43%);
+  color: #fff;
+  padding: 40px 0px 30px 40px;
+}
+
+.spg-subscription-title {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.spg-pricing {
+  display: flex;
+  gap: 12px;
+}
+
+.spg-price {
+  font-size: 30px;
+}
+
+.spg-price-unit {
+  color: hsl(53, 21%, 85%);
+  align-self: center;
+}
+
+.spg-button {
+  background-color: hsl(71, 73%, 54%);
+  color: #fff;
+  font-family: karla, "sans sherif";
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 85px;
+  margin-top: 25px;
+  margin-left: 5px;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.3);
+}
+
+.spg-button:hover {
+  transform: scale(1.03);
+  background-color: hsl(71, 65%, 57%);
+  cursor: pointer;
+}
+
+.spg-whyus {
+  background-color: hsl(179, 53%, 50%);
+  padding: 40px 0 30px 40px;
+  color: #fff;
+}
+
+.spg-whyus-list {
+  list-style: none;
+  padding-top: 12px;
+  padding-left: 7px;
+  font-size: 14px;
+}
+
+.spg-whyus-list li {
+  color: hsl(56, 32%, 90%);
+}
+
+.footer {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.spg-resource:link,
+.spg-resource:visited {
+  color: hsl(179, 57%, 35%);
+  font-weight: bold;
+}
+
+.spg-resource:hover,
+.spg-resource:active {
+  text-decoration: none;
+}
+
+/* Grid layout */
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  overflow: hidden;
+  border-radius: 10px; /* Rounded outer corners */
+  box-shadow: 0 4px 40px rgba(0, 0, 0, 0.2);
+}
+
+.spg-header {
+  grid-column: 1/-1;
+}
+
+main {
+  border-radius: 10px;
+}
